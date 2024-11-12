@@ -16,12 +16,12 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-[Add your screenshot here]
+![Screenshot](./assets/images/screenshot.jpg)
 
 ### Links
 
-- Solution URL: [Add your GitHub repo URL]
-- Live Site URL: [Add your live site URL]
+- [Solution URL:](https://github.com/galonaranjo/practice-recipe)
+- [Live Site URL:](https://practice-recipe.vercel.app/)
 
 ## My process
 
@@ -48,7 +48,12 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 - Custom ordered list styling with CSS counters
 
-`ol li::before { content: counter(list-counter) "."; counter-increment: list-counter; }`
+```
+ol li::before {
+  content: counter(list-counter) ".";
+  counter-increment: list-counter;
+}
+```
 
 ### Useful resources
 
