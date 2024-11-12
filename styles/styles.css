@@ -19,6 +19,7 @@
 body {
   display: flex;
   background-color: #f4e4d7;
+  padding: 5rem 2.5rem;
 }
 .container {
   background-color: var(--white);
@@ -155,7 +156,14 @@ span {
   letter-spacing: 0px;
 }
 
+/******************
+ * Responsiveness
+ ******************/
+
 @media screen and (max-width: 420px) {
+  body {
+    padding: 0;
+  }
   .container {
     padding-top: 0;
     border-radius: 0;
